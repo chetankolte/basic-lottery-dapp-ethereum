@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'shoulder bachelor rice purpose vacant forest bird little critic answer risk right',
-  'https://rinkeby.infura.io/v3/bc1668d8ff5d46aeab1a77323668c0aa'
+  'YOUR_MNEMONIC',
+  'API_KEY_INFURA'
 );
 const web3 = new Web3(provider);
 
